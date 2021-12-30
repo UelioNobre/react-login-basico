@@ -29,7 +29,6 @@ function Login() {
     <form onSubmit={doSubmit}>
           <input type="email" name="mail" onChange={(e) => doChangeCallback(e)}  placeholder="Insira o e-mail" />
           <input type="password" name="pass" onChange={e => doChangeCallback(e)} placeholder="Insira a senha" />
-      
           <button type="submit">Entrar</button>
         </form>
   )
